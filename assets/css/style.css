@@ -513,19 +513,15 @@ section {
   padding-top: 50px;
   height: 60vh;
 }
-
+#hero .text-container {
+  margin-top: 50px;
+}
 #hero h2 {
   font-size: 25px;
   font-weight: 700;
 }
 #hero p {
   line-height: 35px;
-}
-@media (min-width: 1024px) {
-  #hero p {
-    width: 100%;
-    /* height:50vh; */
-  }
 }
 
 @media (max-width: 768px) {
