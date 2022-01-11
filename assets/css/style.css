@@ -282,18 +282,14 @@ h2 {
 .mobile-nav-active .mobile-nav-toggle i {
   color: #fff;
 }
-#footer .social-links a:first-child {
-  font-size: 30px;
+#footer .social-links a {
+  font-size: 16px;
   padding: 10px;
   transition: 0.3s;
   vertical-align: middle;
 }
-
-#footer .social-links a {
-  font-size: 26px;
-  padding: 10px;
-  transition: 0.3s;
-  vertical-align: middle;
+#footer .social-links a:hover {
+  color: var(--primary-color);
 }
 
 #footer .social-links {
@@ -501,6 +497,7 @@ section {
 @media (max-width: 768px) {
   #footer .copyright {
     padding-bottom: 10px;
+    text-align: center;
   }
 }
 /*--------------------------------------------------------------
